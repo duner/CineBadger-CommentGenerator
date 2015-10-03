@@ -89,7 +89,7 @@ class Movie(object):
         return {
             'critic': review['critic'],
             'pub': '"' + review['publication'] + '"',
-            'quote': review['quote']
+            'quote': '"' + review['quote'] + '"'
         }
 
 
