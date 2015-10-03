@@ -58,9 +58,9 @@ class Movie(object):
                     tag = tag.strip()
                     if tag not in messages.keys():
                         messages[tag] = []
-                        message = data['Message'].format(**movie_data)
-                        message = emoji.emojize(message, use_aliases=True)
-                        messages[tag].append(message)
+                    message = data['Message'].format(**movie_data)
+                    message = emoji.emojize(message, use_aliases=True)
+                    messages[tag].append(message)
         return messages
 
     @property
