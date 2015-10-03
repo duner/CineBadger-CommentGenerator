@@ -28,7 +28,7 @@ Watch {title} with me. It will be a good excuse to eat garbage together.,Gentle
 "{title} will change your life, I swear.",Gentle
 Chose your future. Choose {title}.,Gentle
 I will snuggle the shit out of you if you watch {title} with me.,Aggressive
-Take {actor} and {actor}. Add {director} and one helluva story. You got {title.},Gentle
+Take {actor} and {actor2}. Add {director} and one helluva story. You got {title},Gentle
 {rtblurb} DON'T YOU WANT TO WATCH {title} NOW?,"Quote, Gentle"
 {title}: {rtblurb},Gentle
 Remember when I told you about {title}? Let's watch the hell out of it.,Gentle
@@ -56,7 +56,7 @@ Take a break from social media and watch {title}.,Aggressive
 Hey princess. Watch {title}.,Aggressive
 "If you don't watch {title}, you gotta ask yourself a question. Do you feel lucky?",Aggressive
 Watch {title} or I'm gonna make you an offer you can't refuse.,Aggressive
-I hope you can live with yourself knowing that you've never seen what {review.pub} reviewed as: {review.q},Aggressive
+I hope you can live with yourself knowing that you've never seen what {review_pub} reviewed as: {review_q},Aggressive
 "Market research shows that if you don't watch {title}, you're a douchecanoe.",Aggressive
 "{director} is a genius, {title} is amazing, and you're an idiot. Watch the damn movie!",Aggressive
 "{actor} and {actor2} didn't spend months of their lives filming {title} just so you could be complacent about watching it, you know.",Aggressive
