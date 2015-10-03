@@ -3,6 +3,7 @@ import requests
 import random
 import datetime
 import csv
+import emoji
 
 app = Flask(__name__)
 
@@ -57,7 +58,9 @@ class Movie(object):
                     tag = tag.strip()
                     if tag not in messages.keys():
                         messages[tag] = []
-                    messages[tag].append(data['Message'].format(**movie_data))
+                    message = data['Message'].format(**movie_data)
+                    message = emoji.emojize(message, use_aliases=True)
+                    messages[tag].append(message)
         return messages
 
     @property
