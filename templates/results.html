@@ -1,7 +1,19 @@
 {% extends 'base.html' %}
 {% block content %}
-
-<h1>{{ info.title }}</h1>
+<div class="wrapper">
+	<header>
+		<img src="" alt="">
+		<div class="info">
+			<h1>{{ info.title }}</h1>
+			<h2>{{ movie.releasedate }} | {{ movie.director }}</h2>
+			<p>{{ info.synopsis }}</p>
+		</div>
+	</header>
+	<main></main>
+</div>
+<div class="header">
 <h2>{{ info.ratings.critics_score }}</h2>
+</div>
 
+<div class="body"></div>
 {% endblock %}

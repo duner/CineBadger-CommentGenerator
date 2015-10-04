@@ -11,6 +11,8 @@ app = Flask(__name__)
 @app.route('/movie/<movie_id>')
 def movie_page(movie_id, methods=['GET']):
     context = get_data(movie_id)
+    movie = Movie(context)
+    context['movie'] = movie.movie_data
     return render_template('results.html', **context)
 
 @app.route('/query/<movie_id>')
@@ -46,29 +48,34 @@ class Movie(object):
             reader = csv.DictReader(f)
             data_list = list(reader)
             for data in data_list:
-                review = self.review
-                movie_data = {
-                    'title': self.title,
-                    'director': self.director,
-                    'runtime': self.runtime,
-                    'releasedate': self.releasedate,
-                    'actor': self.actors[0],
-                    'actor2': self.actors[1],
-                    'review_q': review['quote'],
-                    'review_pub': review['pub'],
-                    'review_critic': review['critic'],
-                    'rtblurb': self.rtblurb
-                }
-
                 for tag in data['Tags'].split(','):
                     tag = tag.strip()
                     if tag not in messages.keys():
                         messages[tag] = []
-                    message = data['Message'].format(**movie_data)
+                    message = data['Message'].format(**self.movie_data)
                     message = emoji.emojize(message, use_aliases=True)
                     messages[tag].append(message)
         return messages
 
+    @property
+    def movie_data(self):
+        review = self.review
+        return {
+            'title': self.title,
+            'director': self.director,
+            'runtime': self.runtime,
+            'releasedate': self.releasedate,
+            'actor': self.actors[0],
+            'actor2': self.actors[1],
+            'review_q': review['quote'],
+            'review_pub': review['pub'],
+            'review_critic': review['critic'],
+            'rtblurb': self.rtblurb
+        }
+
+
+
+    
     @property
     def title(self): return self.data['info']['title']
 
@@ -81,7 +88,10 @@ class Movie(object):
         return [d['name'] for d in self.data['info']['abridged_directors']][0]
 
     @property
-    def runtime(self): return str(self.data['info']['runtime']) + ' minutes'
+    def runtime(self):
+        _runtime = str(self.data['info']['runtime']) + ' minutes'
+        if not _runtime:
+            return "a few hours"
 
     @property
     def rtblurb(self):
