@@ -50,11 +50,11 @@ class Movie(object):
             for data in data_list:
                 tag = data['Tags'].strip()
                 if tag == "Aggressively":
-                    tag = ":rage:" + tag
+                    tag = ":rage: " + tag
                 if tag == "Gently":
-                    tag = ":relaxed:" + tag
+                    tag = ":relaxed: " + tag
                 if tag == "With a movie quote":
-                    tag = ":clapper::speech_balloon:" + tag
+                    tag = ":clapper::speech_balloon: " + tag
 
                 tag = emoji.emojize(tag, use_aliases=True)
 
