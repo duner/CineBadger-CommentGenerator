@@ -103,7 +103,7 @@ class Movie(object):
         if not _runtime:
             return "a few hours"
         else:
-            return _runtime + 'minutes'
+            return _runtime + ' minutes'
 
     @property
     def rtblurb(self):
