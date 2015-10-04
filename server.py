@@ -48,22 +48,21 @@ class Movie(object):
             reader = csv.DictReader(f)
             data_list = list(reader)
             for data in data_list:
-                for tag in data['Tags'].split(','):
-                    tag = tag.strip()
-                    if tag is "Aggressively":
-                        tag = ":rage:" + tag
-                    if tag is "Gently":
-                        tag = ":relaxed:" + tag
-                    if tag is "With a movie quote":
-                        tag = ":clapper::speech_balloon:" + tag
+                tag = data['Tags'].strip()
+                if tag == "Aggressively":
+                    tag = ":rage:" + tag
+                if tag == "Gently":
+                    tag = ":relaxed:" + tag
+                if tag == "With a movie quote":
+                    tag = ":clapper::speech_balloon:" + tag
 
-                    tag = emoji.emojize(tag)
+                tag = emoji.emojize(tag, use_aliases=True)
 
-                    if tag not in messages.keys():
-                        messages[tag] = []
-                    message = data['Messages'].format(**self.movie_data)
-                    message = emoji.emojize(message, use_aliases=True)
-                    messages[tag].append(message)
+                if tag not in messages.keys():
+                    messages[tag] = []
+                message = data['Messages'].format(**self.movie_data)
+                message = emoji.emojize(message, use_aliases=True)
+                messages[tag].append(message)
         return messages
 
     @property
