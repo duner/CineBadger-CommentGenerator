@@ -99,9 +99,11 @@ class Movie(object):
 
     @property
     def runtime(self):
-        _runtime = str(self.data['info']['runtime']) + ' minutes'
+        _runtime = str(self.data['info']['runtime'])
         if not _runtime:
             return "a few hours"
+        else:
+            return _runtime + 'minutes'
 
     @property
     def rtblurb(self):
