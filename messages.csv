@@ -1,70 +1,90 @@
-Message,Tags
-"You'll regret not seeing {title}. Maybe not today, maybe not tomorrow, but soon and for the rest of your life.","Quote, Gentle, Classic"
-"I'm just a girl, standing in front of a boy, asking him to love {title}.","Quote, Gentle, Romance"
-I'm {title}. I'm your density.,"Quote, Gentle, Fantasy"
-"If you don't make a choice, the choice makes you. Choose {title}.","Quote, Gentle"
-"Why haven't you watched {title} yet? You coulda had class, you coulda been a contender.","Quote, Gentle, Classic"
-I'm gonna make you an offer you can't refuse: watch {title} with me or I'll be very sad.,"Quote, Gentle, Classic, Drama"
-"Life moves pretty fast. If you don't stop and watch {title} once in a while, you could miss it.","Quote, Gentle, Comedy"
-"{title} is so choice. If you have the means, I highly recommend watching it.","Quote, Gentle"
-"If you're not over here to watch {title} in fifteen minutes, you can find a new best friend.","Quote, Gentle"
-Nobody puts {title} in a corner.,"Quote, Gentle"
-Life is like a Redbox of chocolates. You never know what you're gonna watch. (But you should watch {title}.),"Quote, Gentle"
-"No, Mr. Bond, I expect you to watch {title}.","Quote, Gentle, Action"
-Still can't believe you haven't seen {title}.,"Quote, Gentle"
-I'll stop bugging you ... as soon as you agree to watch {title}.,"Quote, Gentle"
-WATCH {title} WITH ME. We'll be closer as friends / siblings / spouses / church members,"Quote, Gentle"
-{title} is a classic.,"Quote, Gentle"
-{title} is the movie that launched {actor}'s career!,"Quote, Gentle"
-{title} practically made {actor} a household name!,"Quote, Gentle"
-Pardon my french ... but fucking watch {title} with me.,Aggressive
-"If you won't watch {title} for yourself, do it for me.",Gentle
-Watching {title} is going to be {runtime} of pure friendship.,Gentle
-Watch {title}. You'll finally get all the references I make.,Gentle
-"FYI, {title} was the inspiration for that one Simpsons episode.",Gentle
-"You know, we can just watch {title} now instead of scrolling through Netflix for an hour.",Gentle
-Watch {title} with me. It will be a good excuse to eat garbage together.,Gentle
-"Let's Netflix and chill. No, seriously. No kissing. You need to see {title}.",Gentle
-"{title} will change your life, I swear.",Gentle
-Chose your future. Choose {title}.,Gentle
-I will snuggle the shit out of you if you watch {title} with me.,Aggressive
-Take {actor} and {actor2}. Add {director} and one helluva story. You got {title},Gentle
-{rtblurb} DON'T YOU WANT TO WATCH {title} NOW?,"Quote, Gentle"
-{title}: {rtblurb},Gentle
-Remember when I told you about {title}? Let's watch the hell out of it.,Gentle
-I read about {title} in the Onion It looks really good.,Gentle
-I read about {title} in Good Housekeeping. It looks really good.,"Quote, Gentle"
-I read about {title} in Gun & Garden. It looks really good.,"Quote, Gentle"
-Let's watch {title} On Demand. Then we don't have to admit we saw it in the theater.,"Quote, Gentle"
-I heard from a youth we should see {title}. Let's watch this quality film!,Gentle
-"#TBT to when {director} made this amazing gem, {title}.",Gentle
-Fun fact: {actor} and {director} became best friends after making {title}?,Gentle
-"Fun fact: most critics have said that watching {title} is akin to ""just one long orgasm.""",Gentle
-"{director} says ""Watch my movie!""",Gentle
-"{title} won a record-breaking 1,353 Academy Awards the year it was released, {title}. Find out why.",Gentle
-"If you really cared about me, you'd watch {title}",Aggressive
-Your kids will love you more if you watch {title},Aggressive
-"Haven't seen {title} yet? Have fun being culturally ignorant, I guess.",Aggressive
-I would take a bullet for you. The least you can do is sit down with me for {runtime} and watch {title}.,Aggressive
-"This is not a date, this is an opportunity to increase your cultural intelligence. Watch {title}.",Aggressive
-Xenu will be very upset if you don't watch {title} with me.,Aggressive
-You call yourself an artist? You have no right to until you've seen {title}.,Aggressive
-Roger Ebert is rolling in his grave because you haven't seen {title} yet.,Aggressive
-You're shameful. You still haven't seen {title}.,Aggressive
-Take a break from social media and watch {title}.,Aggressive
-"If it's fucking good enough for the A.V. Club, {title} is fucking good enough for you.",Aggressive
-Hey princess. Watch {title}.,Aggressive
-"If you don't watch {title}, you gotta ask yourself a question. Do you feel lucky?",Aggressive
-Watch {title} or I'm gonna make you an offer you can't refuse.,Aggressive
-I hope you can live with yourself knowing that you've never seen what {review_pub} reviewed as: {review_q},Aggressive
-"Market research shows that if you don't watch {title}, you're a douchecanoe.",Aggressive
-"{director} is a genius, {title} is amazing, and you're an idiot. Watch the damn movie!",Aggressive
-"{actor} and {actor2} didn't spend months of their lives filming {title} just so you could be complacent about watching it, you know.",Aggressive
-{actor} didn't suffer through several talk show interviews promoting {title} for you not to watch it.,Aggressive
-"{title} is my desert island pick and you don't watch it soon, I'll leave you on a desert island!",Aggressive
-"Do you like your kneecaps? If so, I suggest you watch {title}.",Aggressive
-You should watch {title}. It'd be a shame if something happened to your loved ones.,Aggressive
-"I don't want to say you'll go to hell if you don't see {title}, but I can't make any promises.",Aggressive
-I'm holding your dog for ransom until you see {title}.,Aggressive
-{actor} called me :sobbing: because you haven't seen {title}.,"Aggressive, Emoji"
-I told the cops you haven't seen {title}. They're on their way. :police_car: :police_car:,"Aggressive, Emoji"
+"If you really cared about me, you'd watch {title} with me.",Aggressive,
+"Haven't seen {title} yet? Have fun being culturally ignorant, I guess.",Aggressive,
+"This is not a date, this is an opportunity to increase your cinematic intelligence. Watch {title}.",Aggressive,
+You call yourself an artist? You have no right to until you've seen {title}.,Aggressive,
+Watching {title} will literally make you a better person. Are you uninterested in self-improvement?,Aggressive,
+"My mind's telling me no, but my body, my bodyyyyyy's telling me {title}.",Aggressive,
+"If you're not gonna watch {title} with me, at least read the plot summary on Wikipedia, and then unfriend me.",Aggressive,
+I would take a goddamn bullet for you. The least you can do is sit down with me for {runtime} and watch {title}.,Aggressive,
+"How can you sleep at night, having never seen the glory that is {actor} and {actor2} in {title}?",Aggressive,
+"Have you seen {title} yet, you shambling philistine?",Aggressive,
+{actor} called me SOBBING because you haven't seen {title}.,Aggressive,
+"And the Oscar for being the hugest jag-bag goes to you, for not watching {title} with me yet.",Aggressive,
+People who don't watch {title} are no better than those who can't.,Aggressive,
+,Aggressive,
+That weird rash you told me about in confidence will go away if you watch {title} with me.,Aggressive,
+Let me and {director} wake you up from the nightmare of not having seen {title}.,Aggressive,
+,,
+"If you haven't seen {title}, I can't really guarantee that I would testify to your character in court.",Aggressive,
+"You know, maybe you shouldn't see {title}. I'm honestly not sure your nigh-reptilian brain will be able to process it without liquefying.",Aggressive,
+:mortar_board: Graduate from idiot to functional human by watching {title} with me. The commencement speaker is {actor}!,Aggressive,
+,,
+":lips::ear: Psst, hey trash goblin, cinema improves the mind -- try {title} on for size.",Aggressive,
+"{review_pub} called {title} ""the unlimited appetizers of cinema."" Let's get stuffed.",Aggressive,
+"{title} is transformative. Join me, {actor}, and {actor2} on a higher plane of thought ... or continue to revel in ignorance.",Aggressive,
+I told the cops you haven't seen {title}. They're on their way. :police_car: :police_car:,"Aggressive, Emoji",
+:anguished: I'VE LOOKED LIKE THIS EVER SINCE YOU TOLD ME YOU HAVEN'T SEEN {title},"Aggressive, Emoji",
+Get out of here with that never-seen-{title} bullshit.,"Aggressive, NSFW",
+"Re: {title}, {review_critic} said: {review_q} Do you think you're better than them?","Aggressive, Review",
+{review_pub} said {review_q} about {title} and THEY HAVE NEVER BEEN WRONG ABOUT ANYTHING.,"Aggressive, Review",
+"If you love mozzarella sticks, then you'll love anything by {director}, especially {title}.",Gentle,
+Watch {title}. Don't bother with the book.,Gentle,
+"FYI, {title} was the inspiration for that one Simpsons episode.",Gentle,
+I read about {title} in Gun & Garden. It looks really good.,Gentle,
+{title} is the movie that launched {actor}'s career!,Gentle,
+Watching {title} is going to be {runtime} of pure friendship.,Gentle,
+"Let's Netflix and chill. No, seriously. No kissing. You need to see {title}.",Gentle,
+"Take {actor} and {actor2}, add {director} and one helluva story, you got {title}.",Gentle,
+I'm going on a popcorn fast until you watch {title} with me.,Gentle,
+Get out of here with that never-seen-{title} bullshit.,Gentle,
+Another reason you should watch {title}: it's based on a true story.,Gentle,
+{title} has {actor} in it. I know you think they're hot.,Gentle,
+"Just so you know, watching {title} has been shown to lower your cholesterol.",Gentle,
+,,
+I heard the sequel to {title} is going to be called {title} 2: {actor} in the City.,Gentle,
+,,
+"Hear no evil, speak no evil, see {title} with me.",Gentle,X
+"I'll admit the sequels got a little out of hand, but {actor} was riveting in the original {title}.",Gentle,
+You don't need to see {title} in 3D to experience the full glory of {director}'s vision.,Gentle,
+How have you gotten this far in life without the timeless wisdom found in {title}?,Gentle,X
+I heard that {title} was secretly directed by Billy Idol :sunglasses:,Gentle,
+{title} and chill?,Gentle,
+"{actor} has called {title} ""The single most important work of art since the Lascaux cave paintings.""",Gentle,
+{actor} and {actor} under the expert guidance of {director}? You only get a trio like that once every millennium. ,Gentle,
+I'm not exaggerating when I say that {title} has DEEPLY impacted how I operate in day-to-day life. ,Gentle,
+Siskel & Ebert gave {title} :angel::thumbsup::angel::thumbsup:,Gentle,
+{actor}. {actor2}. The most thrilling {runtime} OF YOUR LIFE.,Gentle,
+Would you believe that Nicolas Cage and {actor} star in {title}!? What about {actor} and {actor2}?,Gentle,X (this could be confusing? i don't think people will understand we put in Nic Cage)
+{actor} and {actor} are like peas and carrots in {title}.,"Gentle, Actor",
+"{title} is gluten-free, but not {actor}-free!","Gentle, Actor",
+:movie_camera: :movie_camera: :movie_camera: {title} :movie_camera: :movie_camera: :movie_camera:,"Gentle, Emoji",
+{title} :thumbsup: ,"Gentle, Emoji",X
+I heard that {actor} and {actor2} secretly canoodled every day on the set of {title}. Let's watch their chemistry set the screen on :fire:!,"Gentle, Emoji",
+"{title} got a {info.ratings.critics_score} on Rotten Tomatoes, but you should watch it with me to keep our friendship :100: .","Gentle, Emoji",
+{title} -- {actor} vs. {actor2} in a fight to the finish. Hold me. :busts_in_silhouette:,"Gentle, Emoji",
+"Btw, {review_pub} had this to say about {title}: {review_q}","Gentle, Review",
+"As my dear friend {review_critic} said about {title}, {review_q}","Gentle, Review",
+{review_pub} saw {title} and said {review_q}. What do you have to say for yourself?,"Gentle, Review",
+{review_q} This is what you have to look forward to if you watch {title} with me!,"Gentle, Review",X
+I like it. {review_critic} said {review_q}. What more do you need?,"Gentle, Review",
+"{review_critic} said {review_q} about {title}, and you know they are supremely trustworthy. They work for {review_pub}!","Gentle, Review",
+"{title}: {rtblurb} So, yeah, GET HYPE. ","Gentle, Review",
+U.N. Secretary General Ban Ki-Moon said this about {title}:{review_q}.,"Gentle, Review",
+This is just a glimpse of the transcendent viewing experience that is {title}: {review_q},"Gentle, Review",
+I am frankly offended that you haven't seen the film about which {review_pub} said: {review_q},"Gentle, Review",
+{review_q} Woops how did this highly informed opinion of {title} get here  ,"Gentle, Review",
+{title}: {rtblurb} :ok_hand:,"Gentle, Review, Emoji",
+"{title} is :fire: :fire: :fire:, just ask Rotten Tomatoes: {rtblurb} ","Gentle, Review, Emoji",
+"Reviews for {title} were :100:, btw. {review_critic} said, {review_q}","Gentle, Review, Emoji",
+Life is like a Redbox of chocolates. You never know what you're gonna watch. (But you should watch {title}.) ,Quote,
+"Life moves pretty fast. If you don't stop and watch {title} once in a while, you could miss it.",Quote,
+"You gotta ask yourself one question: do I feel like watching {title}? Well, do ya, FUCCBOI?",Quote,
+I'm gonna make you an offer you can't refuse: watch {title} with me or I'll be very sad.,Quote,
+"You take the blue pill — the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill — you stay in {title}, and {actor} shows you how deep the rabbit hole goes.",Quote,
+"We will not go quietly into the night! We will not vanish without {actor}! We're going to live on! We're going to survive! Today, we celebrate {title}!",Quote,
+An adventure {runtime} in the making.,Quote,X (doesn't mention movie?)
+Fear can hold you prisoner. {title} can set you free.,Quote,
+"If you watch {title} now that'll be the end of it. I will not look for you, I will not pursue you, but if you don't, I will look for you, I will find you and I will make you sit on a couch with me for {runtime}.",Quote,
+"You'll regret not seeing {title}. Maybe not today, maybe not tomorrow, but soon and for the rest of your life.","Quote, Classic",
+"I'm just a girl, standing in front of a boy, asking him to love {title}.","Quote, Romance",
+Message,Tags,
