@@ -101,7 +101,10 @@ class Movie(object):
 
     @property
     def rtblurb(self):
-        blurb = self.data['info']['critics_consensus']
+        if 'critics_consensus' in self.data['info'].keys():
+            blurb = self.data['info']['critics_consensus']
+        else:
+            blurb = False
         if not blurb:
             rand = random.random()
             if rand > 0.5:
