@@ -50,9 +50,18 @@ class Movie(object):
             for data in data_list:
                 for tag in data['Tags'].split(','):
                     tag = tag.strip()
+                    if tag is "Aggressively":
+                        tag = ":rage:" + tag
+                    if tag is "Gently":
+                        tag = ":relaxed:" + tag
+                    if tag is "With a movie quote":
+                        tag = ":clapper::speech_balloon:" + tag
+
+                    tag = emoji.emojize(tag)
+
                     if tag not in messages.keys():
                         messages[tag] = []
-                    message = data['Message'].format(**self.movie_data)
+                    message = data['Messages'].format(**self.movie_data)
                     message = emoji.emojize(message, use_aliases=True)
                     messages[tag].append(message)
         return messages
@@ -70,11 +79,9 @@ class Movie(object):
             'review_q': review['quote'],
             'review_pub': review['pub'],
             'review_critic': review['critic'],
-            'rtblurb': self.rtblurb
+            'rtblurb': self.rtblurb,
+            'rtscore': self.rtscore
         }
-
-
-
     
     @property
     def title(self): return self.data['info']['title']
@@ -106,7 +113,7 @@ class Movie(object):
 
     @property
     def rtscore(self):
-        return self.data['info']['ratings']['critics_score'] + "%"
+        return str(self.data['info']['ratings']['critics_score']) + "%"
 
     @property
     def releasedate(self):
