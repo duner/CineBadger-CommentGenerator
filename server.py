@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import requests
 import random
 import datetime
@@ -7,6 +7,12 @@ import emoji
 
 app = Flask(__name__)
 
+
+
+@app.route('/movie/<movie_id>')
+def movie_page(movie_id, methods=['GET']):
+    context = get_data(movie_id)
+    return render_template('results.html', **context)
 
 @app.route('/query/<movie_id>')
 def movie_endpoint(movie_id, methods=['GET']):
@@ -51,6 +57,7 @@ class Movie(object):
                     'actor2': self.actors[1],
                     'review_q': review['quote'],
                     'review_pub': review['pub'],
+                    'review_critic': review['critic'],
                     'rtblurb': self.rtblurb
                 }
 
@@ -78,7 +85,15 @@ class Movie(object):
     def runtime(self): return str(self.data['info']['runtime']) + ' minutes'
 
     @property
-    def rtblurb(self): return self.data['info']['critics_consensus']
+    def rtblurb(self):
+        blurb = self.data['info']['critics_consensus']
+        if not blurb:
+            rand = random.random()
+            if rand > 0.5:
+                blurb = "{} has been called a film with a beginning, middle, AND end.".format(self.title)
+            else:
+                blurb = "{} has been called a film with a beginning, middle, AND end.".format(self.title)
+        return blurb
 
     @property
     def releasedate(self):
