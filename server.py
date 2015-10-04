@@ -7,6 +7,10 @@ import emoji
 
 app = Flask(__name__)
 
+@app.route('/')
+def index(methods=['GET']):
+    return render_template('index.html')
+
 
 @app.route('/movie/<movie_id>')
 def movie_page(movie_id, methods=['GET']):
