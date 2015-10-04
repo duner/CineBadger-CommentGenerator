@@ -20,7 +20,7 @@ Let me and {director} wake you up from the nightmare of not having seen {title}.
 ":lips::ear: Psst, hey trash goblin, cinema improves the mind -- try {title} on for size.",Aggressively
 "{review_pub} called {title} ""the unlimited appetizers of cinema."" Let's get stuffed.",Aggressively
 "{title} is transformative. Join me, {actor}, and {actor2} on a higher plane of thought ... or continue to revel in ignorance.",Aggressively
-I told the cops you haven't seen {title}. They're on their way. :police_car: :police_car:,Aggressively
+I told the cops you haven't seen {title}. They're on their way. :police_car::police_car:,Aggressively
 :anguished: I'VE LOOKED LIKE THIS EVER SINCE YOU TOLD ME YOU HAVEN'T SEEN {title},Aggressively
 Get out of here with that never-seen-{title} bullshit.,Aggressively
 "Re: {title}, {review_critic} said: {review_q} Do you think you're better than them?",Aggressively
@@ -51,7 +51,7 @@ Siskel & Ebert gave {title} :angel::thumbsup::angel::thumbsup:,Gently
 {actor}. {actor2}. The most thrilling {runtime} OF YOUR LIFE.,Gently
 {actor} and {actor} are like peas and carrots in {title}.,Gently
 "{title} is gluten-free, but not {actor}-free!",Gently
-:movie_camera: :movie_camera: :movie_camera: {title} :movie_camera: :movie_camera: :movie_camera:,Gently
+:movie_camera::movie_camera::movie_camera: {title} :movie_camera::movie_camera::movie_camera:,Gently
 I heard that {actor} and {actor2} secretly canoodled every day on the set of {title}. Let's watch their chemistry set the screen on :fire:!,Gently
 "{title} got a {rtscore} on Rotten Tomatoes, but you should watch it with me to keep our friendship :100: .",Gently
 {title} -- {actor} vs. {actor2} in a fight to the finish. Hold me. :busts_in_silhouette:,Gently
@@ -66,7 +66,7 @@ This is just a glimpse of the transcendent viewing experience that is {title}: {
 I am frankly offended that you haven't seen the film about which {review_pub} said: {review_q},Gently
 {review_q} Woops how did this highly informed opinion of {title} get here  ,Gently
 {title}: {rtblurb} :ok_hand:,Gently
-"{title} is :fire: :fire: :fire:, just ask Rotten Tomatoes: {rtblurb} ",Gently
+"{title} is :fire::fire::fire:, just ask Rotten Tomatoes: {rtblurb} ",Gently
 "Reviews for {title} were :100:, btw. {review_critic} said, {review_q}",Gently
 Life is like a Redbox of chocolates. You never know what you're gonna watch. (But you should watch {title}.) ,With a movie quote
 "Life moves pretty fast. If you don't stop and watch {title} once in a while, you could miss it.",With a movie quote
