@@ -53,19 +53,19 @@ Siskel & Ebert gave {title} :angel::thumbsup::angel::thumbsup:,Gently
 "{title} is gluten-free, but not {actor}-free!",Gently
 :movie_camera::movie_camera::movie_camera: {title} :movie_camera::movie_camera::movie_camera:,Gently
 I heard that {actor} and {actor2} secretly canoodled every day on the set of {title}. Let's watch their chemistry set the screen on :fire:!,Gently
-"{title} got a {rtscore} on Rotten Tomatoes, but you should watch it with me to keep our friendship :100: .",Gently
+"{title} got {rtscore} on Rotten Tomatoes, but you should watch it with me to keep our friendship :100: .",Gently
 {title} -- {actor} vs. {actor2} in a fight to the finish. Hold me. :busts_in_silhouette:,Gently
 "Btw, {review_pub} had this to say about {title}: {review_q}",Gently
 "As my dear friend {review_critic} said about {title}, {review_q}",Gently
-{review_pub} saw {title} and said {review_q}. What do you have to say for yourself?,Gently
-I like it. {review_critic} said {review_q}. What more do you need?,Gently
+{review_pub} saw {title} and said {review_q} What do you have to say for yourself?,Gently
+I like it. {review_critic} said {review_q} What more do you need?,Gently
 "{review_critic} said {review_q} about {title}, and you know they are supremely trustworthy. They work for {review_pub}!",Gently
-"{title}: {rtblurb} So, yeah, GET HYPE. ",Gently
+"{rtblurb} So, yeah, GET HYPE. ",Gently
 U.N. Secretary General Ban Ki-Moon said this about {title}: {review_q}.,Gently
 This is just a glimpse of the transcendent viewing experience that is {title}: {review_q},Gently
 I am frankly offended that you haven't seen the film about which {review_pub} said: {review_q},Gently
 {review_q} Woops how did this highly informed opinion of {title} get here  ,Gently
-{title}: {rtblurb} :ok_hand:,Gently
+{rtblurb} :ok_hand:,Gently
 "{title} is :fire::fire::fire:, just ask Rotten Tomatoes: {rtblurb} ",Gently
 "Reviews for {title} were :100:, btw. {review_critic} said, {review_q}",Gently
 Life is like a Redbox of chocolates. You never know what you're gonna watch. (But you should watch {title}.) ,With a movie quote
