@@ -8,7 +8,6 @@ import emoji
 app = Flask(__name__)
 
 
-
 @app.route('/movie/<movie_id>')
 def movie_page(movie_id, methods=['GET']):
     context = get_data(movie_id)
@@ -94,6 +93,10 @@ class Movie(object):
             else:
                 blurb = "{} has been called a film with a beginning, middle, AND end.".format(self.title)
         return blurb
+
+    @property
+    def rtscore(self):
+        return self.data['info']['ratings']['critics_score'] + "%"
 
     @property
     def releasedate(self):
