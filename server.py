@@ -125,12 +125,20 @@ class Movie(object):
 
     @property
     def review(self):
-        review = random.choice(self.data['reviews'])
-        return {
-            'critic': review['critic'],
-            'pub': '"' + review['publication'] + '"',
-            'quote': '"' + review['quote'] + '"'
-        }
+        if self.data['reviews']:
+            review = random.choice(self.data['reviews'])
+            return {
+                'critic': review['critic'],
+                'pub': '"' + review['publication'] + '"',
+                'quote': '"' + review['quote'] + '"'
+            }
+        else:
+            return {
+                'critic': 'your Mom',
+                'pub': '"Up Your Butt"',
+                'quote': "Go see this movie!"
+            }
+
 
 
 if __name__ == "__main__":
